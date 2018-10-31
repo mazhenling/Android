@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic__icon_home"
+            android:title="@string/toolbar1" />
+        <item
+            android:id="@+id/nav_course"
+            android:icon="@drawable/ic_icon_courses"
+            android:title="@string/toolbar2" />
+
+        <item
+            android:id="@+id/nav_coachlist"
+            android:icon="@drawable/ic__icon_coach"
+            android:title="@string/toolbar3" />
+        <item
+            android:id="@+id/nav_invoice"
+            android:icon="@drawable/ic_icon_invoices"
+            android:title="@string/toolbar4" />
+        <item
+            android:id="@+id/nav_attendance"
+            android:icon="@drawable/ic_icon_attendence"
+            android:title="@string/toolbar5" />
+
+    </group>
+    <item android:title="Others">
+        <menu>
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_settings_24dp"
+                android:title="@string/toolbar6" />
+            <item
+                android:id="@+id/nav_myaccount"
+                android:icon="@drawable/ic_icon_account"
+                android:title="@string/toolbar7" />
+
+        </menu>
+    </item>
+</menu>

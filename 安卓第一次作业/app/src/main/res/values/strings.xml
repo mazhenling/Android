@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">My Gym</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="news1">·这是第一条新闻链接111111111111111这是第一条新闻链接</string>
+    <string name="news2">·这是第二条新闻链接222222222222222这是第二条新闻链接</string>
+    <string name="news3">·这是第三条新闻链接333333333333333这是第三条新闻链接</string>
+    <string name="news4">·这是倒数第二条新闻链接44444444这是倒数第二条新闻链接</string>
+    <string name="news5">·这是最后一条新闻链接555555555555这是最后一条新闻链接</string>
+    <string name="toolbar1">Home</string>
+    <string name="toolbar2">My course</string>
+    <string name="toolbar3">My Coache</string>
+    <string name="toolbar4">My Invoice</string>
+    <string name="toolbar5">My Attendance</string>
+    <string name="toolbar6">Settings</string>
+    <string name="toolbar7">My Account</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
