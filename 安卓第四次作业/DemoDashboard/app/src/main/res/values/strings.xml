@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">My Gym</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="news1">·健身锻炼方式多样-------哪种健身方式比较适合你？</string>
+    <string name="news2">·这是第二条新闻链接222222222222222这是第二条新闻链接</string>
+    <string name="news3">·这是第三条新闻链接333333333333333这是第三条新闻链接</string>
+    <string name="news4">·这是倒数第二条新闻链接44444444这是倒数第二条新闻链接</string>
+    <string name="news5">·这是最后一条新闻链接555555555555这是最后一条新闻链接</string>
+    <string name="toolbar1">Home</string>
+    <string name="toolbar2">My course</string>
+    <string name="toolbar3">My Coache</string>
+    <string name="toolbar4">My Invoice</string>
+    <string name="toolbar5">My Attendance</string>
+    <string name="toolbar6">Map</string>
+    <string name="toolbar7">My Account</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="welcome_to_gym">Welcome to GYM</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+</resources>

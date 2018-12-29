@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="368dp"
+        android:layout_height="373dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:text="选择健身动作还需结合本身的体质，有些甜食心脏不好，有些训练动作是不适合做的。以下推荐一些健身训练动作希望是适合你的： 　　1.左右开合跳 　　不少朋友都做过开合跳的健身动作，在完成这个动作的时候会有弹跳的动作，如果要增加动作难度，还可以增加下触地的动作，这不仅能提升训练的效果，对相应的肌肉群也能起到刺激的作用。 　　2.左右摇摆跳跃 　　摇摆跳跃这个动作做的时候，双腿要并拢，有节奏的左右跳动是很简单的训练动作，目的也是让全身的肌肉都参与到训练中来。 　　3.俯卧撑爬行 　　这个动作也是组合完成的训练动作，是通过俯卧撑站起这两个动作组合而成，能对腹部，手臂肌肉起到相应的锻炼作用，做动作的时候感知上肢发力，动作会做的更规范。"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="371dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:text="有氧健身动作分解起来做的话可以分解成很多动作，有些训练动作比较简单，有些训练动作是复合型动作，这样的健身效果会更好，比如腿部训练动作，如果超过了负荷量，训练起来会比较痛苦，但要实现比较好的练腿效果，坚持是必须的。"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText"
+        app:layout_constraintVertical_bias="0.0" />
+</android.support.constraint.ConstraintLayout>

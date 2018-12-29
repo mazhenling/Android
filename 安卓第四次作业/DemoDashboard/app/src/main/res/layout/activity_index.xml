@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+        <!--存放图片的ViewPager-->
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:background="#66000000"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="5dp">
+            <!--标题-->
+            <TextView
+                android:id="@+id/tv_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="标题"
+                android:textColor="@android:color/white" />
+            <!--存放小圆点的容器-->
+            <LinearLayout
+                android:id="@+id/ll_point_container"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/news1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/news1" />
+    <TextView
+        android:id="@+id/news2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/news2" />
+    <TextView
+        android:id="@+id/news3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/news3" />
+    <TextView
+        android:id="@+id/news4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/news4" />
+    <TextView
+        android:id="@+id/news5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/news5" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="130dp"
+            android:layout_margin="2dp"
+            android:layout_weight="1.5"
+            android:background="@color/colorGrapeFruit"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/notes" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="30dp"
+                android:background="@color/colorGrapeFruitDark"
+                android:padding="8dp"
+                android:text="我的课程"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/myCoach"
+            android:layout_width="0dp"
+            android:layout_height="130dp"
+            android:layout_margin="2dp"
+            android:layout_weight="1.5"
+            android:background="@color/colorBitterSweet"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/supermarket" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="30dp"
+                android:background="@color/colorBitterSweetDark"
+                android:padding="8dp"
+                android:text="我的教练"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        android:weightSum="3">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="130dp"
+            android:layout_margin="2dp"
+            android:layout_weight="1.5"
+            android:background="@color/colorGrapeFruit"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/fileexplorer" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="30dp"
+                android:background="@color/colorGrapeFruitDark"
+                android:padding="8dp"
+                android:text="我的发票"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="130dp"
+            android:layout_margin="2dp"
+            android:layout_weight="1.5"
+            android:background="@color/colorBitterSweet"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/deskclock" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="30dp"
+                android:background="@color/colorBitterSweetDark"
+                android:padding="8dp"
+                android:text="我的出席"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
